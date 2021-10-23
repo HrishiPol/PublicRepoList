@@ -27,7 +27,6 @@
 		B76A17D32721288900429666 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B76A17D12721288900429666 /* RepoTableViewCell.xib */; };
 		B76A17D5272195CD00429666 /* GetNextRepoListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17D4272195CD00429666 /* GetNextRepoListUseCase.swift */; };
 		B76A17D82721988100429666 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17D72721988100429666 /* Constants.swift */; };
-		B76A17DB27219F8B00429666 /* RepoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17DA27219F8A00429666 /* RepoDetailViewController.swift */; };
 		B76A17DE27228E8300429666 /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B76A17DD27228E8300429666 /* SampleResponse.json */; };
 		B76A17E1272291F400429666 /* RepoListTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17E0272291F400429666 /* RepoListTestCases.swift */; };
 		B77517102720170200CC5E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775170F2720170200CC5E7A /* AppDelegate.swift */; };
@@ -80,7 +79,6 @@
 		B76A17D12721288900429666 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
 		B76A17D4272195CD00429666 /* GetNextRepoListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNextRepoListUseCase.swift; sourceTree = "<group>"; };
 		B76A17D72721988100429666 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B76A17DA27219F8A00429666 /* RepoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailViewController.swift; sourceTree = "<group>"; };
 		B76A17DD27228E8300429666 /* SampleResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
 		B76A17DF272291F400429666 /* RepoListTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RepoListTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B76A17E0272291F400429666 /* RepoListTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListTestCases.swift; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 		B73A15372720232D00DA6887 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B76A17D927219F6100429666 /* Details */,
 				B76A17CF2721286800429666 /* Cell */,
 				B73A155827206ED800DA6887 /* RepoListViewController.swift */,
 				B73A155A272111ED00DA6887 /* RepoListViewModel.swift */,
@@ -233,14 +230,6 @@
 				B76A17D72721988100429666 /* Constants.swift */,
 			);
 			path = Util;
-			sourceTree = "<group>";
-		};
-		B76A17D927219F6100429666 /* Details */ = {
-			isa = PBXGroup;
-			children = (
-				B76A17DA27219F8A00429666 /* RepoDetailViewController.swift */,
-			);
-			path = Details;
 			sourceTree = "<group>";
 		};
 		B76A17DC27228E6C00429666 /* Sample */ = {
@@ -605,7 +594,6 @@
 				B73A155727206D2D00DA6887 /* ErrorResponse.swift in Sources */,
 				B73A15392720237D00DA6887 /* RepoListRepositoryImpl.swift in Sources */,
 				B73A155527202D3900DA6887 /* Loadable.swift in Sources */,
-				B76A17DB27219F8B00429666 /* RepoDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
