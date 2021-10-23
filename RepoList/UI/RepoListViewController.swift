@@ -87,7 +87,7 @@ class RepoListViewController: UIViewController, UITableViewDataSource, UITableVi
                                                     placeholderImage: UIImage(named: "logo"))
             cell.nameLabel.text = displayName
             cell.dateLabel.text = date
-            cell.typeLabel.text = repo.type?.rawValue
+            cell.typeLabel.text = owner.type?.rawValue
         }
         cell.selectionStyle = .none
         return cell
