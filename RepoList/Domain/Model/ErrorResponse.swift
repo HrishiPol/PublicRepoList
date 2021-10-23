@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// Error response structure.
 struct ErrorResponse: Codable {
    let error: ErrorValue
 }

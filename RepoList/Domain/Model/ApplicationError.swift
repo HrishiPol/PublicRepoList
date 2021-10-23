@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// Enum describe the application error.
 enum ApplicationError: Error {
     case unknownError
     case serviceError(message: String)

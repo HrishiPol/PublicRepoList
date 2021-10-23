@@ -8,6 +8,7 @@
 import Foundation
 import Swinject
 
+/// Dependancy injection container.
 let container: Container = {
     let container = Container()
     return container

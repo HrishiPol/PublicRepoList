@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Protocols which defines the use case and its types.
 protocol UseCase {
     associatedtype Output
     func execute() -> Output

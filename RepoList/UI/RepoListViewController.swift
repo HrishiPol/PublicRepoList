@@ -10,6 +10,7 @@ import UIKit
 import SDWebImage
 import MBProgressHUD
 
+/// View that show all public repo from git.
 class RepoListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var viewModel: RepoListViewModel?
     @IBOutlet weak var nextButton: UIButton!
@@ -20,13 +21,14 @@ class RepoListViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Assign viewModel to the viewController.
         viewModel = repoContainer.resolve(RepoListViewModel.self)
         
         // Load RepoTableViewCell in tableview.
         listTableView.register(UINib(nibName: .kRepoListTableViewCellIdentifier, bundle: nil),
                                forCellReuseIdentifier: .kRepoListTableViewCellIdentifier)
         
-        
+        // Load all repo's from API.
         viewModel?.onAppLoad.value = ""
         showIndicator()
         
@@ -56,6 +58,7 @@ class RepoListViewController: UIViewController, UITableViewDataSource, UITableVi
     func showIndicator() {
         MBProgressHUD.showAdded(to: self.view, animated: true).show(animated: true)
     }
+    /// Hide indicator.
     func hideIndicator() {
         MBProgressHUD.hide(for: self.view, animated: true)
     }

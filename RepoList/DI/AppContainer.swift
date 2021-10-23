@@ -8,6 +8,7 @@
 import Moya
 import Swinject
 
+/// Dependancy injection repo container.
 let repoContainer = Container { container in
     container.register(RepoListRepository.self) { _ in
         if NSClassFromString("XCTest") != nil {
@@ -29,6 +30,7 @@ let repoContainer = Container { container in
     }
 }
 
+/// Dependancy injection service container
 let serviceContainer = Container { container in
     container.register(MoyaProvider<MultiTarget>.self) { _ in
         MoyaProvider<MultiTarget>()

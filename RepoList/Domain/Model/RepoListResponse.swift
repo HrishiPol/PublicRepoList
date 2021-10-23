@@ -54,6 +54,7 @@ struct Value: Codable {
     }
 }
 
+// MARK: - ForkPolicy
 enum ForkPolicy: String, Codable {
     case allowForks = "allow_forks"
 }
@@ -84,6 +85,7 @@ struct Clone: Codable {
     let name: CloneName?
 }
 
+// MARK: - CloneName
 enum CloneName: String, Codable {
     case https = "https"
     case ssh = "ssh"
@@ -95,10 +97,12 @@ struct Mainbranch: Codable {
     let name: MainbranchName?
 }
 
+// MARK: - MainbranchName
 enum MainbranchName: String, Codable {
     case master = "master"
 }
 
+// MARK: - MainbranchType
 enum MainbranchType: String, Codable {
     case branch = "branch"
 }
@@ -130,6 +134,7 @@ struct OwnerLinks: Codable {
     }
 }
 
+// MARK: - OwnerType
 enum OwnerType: String, Codable {
     case team = "team"
     case user = "user"
@@ -144,19 +149,23 @@ struct Project: Codable {
     let uuid, slug: String?
 }
 
+// MARK: - Key
 enum Key: String, Codable {
     case proj = "PROJ"
 }
 
+// MARK: - ProjectType
 enum ProjectType: String, Codable {
     case project = "project"
     case workspace = "workspace"
 }
 
+// MARK: - SCM
 enum SCM: String, Codable {
     case git = "git"
 }
 
+// MARK: - ValueType
 enum ValueType: String, Codable {
     case repository = "repository"
 }

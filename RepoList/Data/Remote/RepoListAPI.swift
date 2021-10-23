@@ -7,11 +7,17 @@
 
 import Moya
 import Foundation
+
+/// Enum describes the api list.
 enum RepoListAPI {
     case getRepoList
     case getNextRepoList(request: String)
 }
+/**
+ This target is for all endpoints.
+ */
 extension RepoListAPI: TargetType {
+    /// Represents the headers pass to the each api.
     var headers: [String : String]? {
         switch self {
         case .getRepoList, .getNextRepoList: fallthrough
@@ -20,6 +26,7 @@ extension RepoListAPI: TargetType {
         }
     }
     
+    /// Describe baseURL for each api.
     var baseURL: URL {
         switch self {
         case .getRepoList:
@@ -29,6 +36,7 @@ extension RepoListAPI: TargetType {
         }
     }
     
+    /// Describe path for each api.
     var path: String {
         switch self {
         case .getRepoList, .getNextRepoList:
@@ -36,10 +44,12 @@ extension RepoListAPI: TargetType {
         }
     }
     
+    /// Describe http method type for each api.
     var method: Moya.Method {
         return .get
     }
     
+    /// Describe sample data for each api.
     var sampleData: Data {
         guard let url = Bundle.main.url(forResource: "SampleResponse", withExtension: "json"),
               let data = try? Data(contentsOf: url) else {
@@ -48,6 +58,7 @@ extension RepoListAPI: TargetType {
         return data
     }
     
+    /// Describe taskl for each api.
     var task: Task {
         switch self {
         case .getRepoList, .getNextRepoList:

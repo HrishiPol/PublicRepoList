@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// Loadable enum.
 enum Loadable<T> {
     case success(data: T)
     case error(error: Error)

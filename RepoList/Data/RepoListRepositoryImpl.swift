@@ -8,14 +8,20 @@ import Moya
 import Foundation
 import ReactiveSwift
 
+/// Repository implementation class.
 class RepoListRepositoryImpl: RepoListRepository {
-            
+    
+    /// Represents the moya provider.
     let provider: MoyaProvider<MultiTarget>
     
+    /// Inject moya provider.
+    /// - Parameter provider: <#provider description#>
     init(provider: MoyaProvider<MultiTarget>) {
         self.provider = provider
     }
     
+    /// Fetch list of public repositories.
+    /// - Returns: Return RepoListResponse object on success and RepoListRepositoryError on failure.
     func getRepoList() -> SignalProducer<RepoListResponse?, RepoListRepositoryError> {
         return provider
             .reactive
@@ -55,6 +61,8 @@ class RepoListRepositoryImpl: RepoListRepository {
         }
     }
     
+    /// Fetch list of public repositories from next load.
+    /// - Returns: Return RepoListResponse object on success and RepoListRepositoryError on failure.
     func getNextRepoList(request: String) -> SignalProducer<RepoListResponse?, RepoListRepositoryError> {
         return provider
             .reactive
