@@ -41,9 +41,11 @@ class RepoListTestCases: QuickSpec {
                     }
                     sut.getRepoList().start(testObserver)
                     expect(next).to(equal(Expected.next))
+                    expect(next).notTo(equal(""))
                     expect(pageLength).to(equal(Expected.pageLength))
-                    expect(pageLength).to(equal(Expected.pageLength))
+                    expect(pageLength).notTo(equal(0))
                     expect(completed).to(beTrue())
+                    expect(completed).notTo(beFalse())
                 }
             }
         }
