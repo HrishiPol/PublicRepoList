@@ -41,7 +41,11 @@ extension RepoListAPI: TargetType {
     }
     
     var sampleData: Data {
-        return Data()
+        guard let url = Bundle.main.url(forResource: "SampleResponse", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else {
+            return Data()
+        }
+        return data
     }
     
     var task: Task {

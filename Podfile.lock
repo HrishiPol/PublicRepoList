@@ -6,6 +6,8 @@ PODS:
   - Moya/ReactiveSwift (15.0.0):
     - Moya/Core
     - ReactiveSwift (~> 6.6.1)
+  - Nimble (9.2.1)
+  - Quick (4.0.0)
   - ReactiveCocoa (11.2.2):
     - ReactiveSwift (~> 6.6)
   - ReactiveSwift (6.6.1)
@@ -18,6 +20,8 @@ PODS:
 DEPENDENCIES:
   - MBProgressHUD (~> 1.2)
   - Moya/ReactiveSwift
+  - Nimble
+  - Quick
   - ReactiveCocoa
   - ReactiveSwift
   - SDWebImage (~> 5.0)
@@ -29,6 +33,8 @@ SPEC REPOS:
     - Alamofire
     - MBProgressHUD
     - Moya
+    - Nimble
+    - Quick
     - ReactiveCocoa
     - ReactiveSwift
     - SDWebImage
@@ -39,12 +45,14 @@ SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
   ReactiveCocoa: e539cd41c523c8c80851b88e9723235c933b024b
   ReactiveSwift: fab34244ad908808dc822bae352a058c8837c4ca
   SDWebImage: 4ea20cca2986adc5aacde07aa686742fd4c67a37
   SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
   Swinject: db795b8d6d78559b25fbebb0170d2635be1176e2
 
-PODFILE CHECKSUM: 86aab5697af43a898eacaa86d907b4a3afdc8fc0
+PODFILE CHECKSUM: a24ba0f5fc0ec13aebc0ea3b5c7753111709b90d
 
 COCOAPODS: 1.11.0

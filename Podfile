@@ -17,6 +17,9 @@ target 'RepoList' do
   target 'RepoListTests' do
     inherit! :search_paths
     # Pods for testing
+  pod 'Quick'
+  pod 'Nimble'
+
   end
 
   target 'RepoListUITests' do

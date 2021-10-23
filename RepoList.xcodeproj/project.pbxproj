@@ -28,12 +28,14 @@
 		B76A17D5272195CD00429666 /* GetNextRepoListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17D4272195CD00429666 /* GetNextRepoListUseCase.swift */; };
 		B76A17D82721988100429666 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17D72721988100429666 /* Constants.swift */; };
 		B76A17DB27219F8B00429666 /* RepoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17DA27219F8A00429666 /* RepoDetailViewController.swift */; };
+		B76A17DE27228E8300429666 /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B76A17DD27228E8300429666 /* SampleResponse.json */; };
+		B76A17E1272291F400429666 /* RepoListTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A17E0272291F400429666 /* RepoListTestCases.swift */; };
 		B77517102720170200CC5E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775170F2720170200CC5E7A /* AppDelegate.swift */; };
 		B77517172720170200CC5E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77517152720170200CC5E7A /* Main.storyboard */; };
 		B77517192720170600CC5E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77517182720170600CC5E7A /* Assets.xcassets */; };
 		B775171C2720170600CC5E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B775171A2720170600CC5E7A /* LaunchScreen.storyboard */; };
-		B77517272720170600CC5E7A /* RepoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77517262720170600CC5E7A /* RepoListTests.swift */; };
 		B77517322720170600CC5E7A /* RepoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77517312720170600CC5E7A /* RepoListUITests.swift */; };
+		B7D8A6F72723F69600122F18 /* SuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B7D8A6F62723F69600122F18 /* SuccessResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,9 @@
 		B76A17D4272195CD00429666 /* GetNextRepoListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNextRepoListUseCase.swift; sourceTree = "<group>"; };
 		B76A17D72721988100429666 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B76A17DA27219F8A00429666 /* RepoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailViewController.swift; sourceTree = "<group>"; };
+		B76A17DD27228E8300429666 /* SampleResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
+		B76A17DF272291F400429666 /* RepoListTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RepoListTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B76A17E0272291F400429666 /* RepoListTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListTestCases.swift; sourceTree = "<group>"; };
 		B775170C2720170200CC5E7A /* RepoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B775170F2720170200CC5E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B77517162720170200CC5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,11 +91,11 @@
 		B775171B2720170600CC5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B775171D2720170600CC5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B77517222720170600CC5E7A /* RepoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B77517262720170600CC5E7A /* RepoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListTests.swift; sourceTree = "<group>"; };
 		B77517282720170600CC5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B775172D2720170600CC5E7A /* RepoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77517312720170600CC5E7A /* RepoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListUITests.swift; sourceTree = "<group>"; };
 		B77517332720170600CC5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D8A6F62723F69600122F18 /* SuccessResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SuccessResponse.json; sourceTree = "<group>"; };
 		BCB87EB878F7DEB8E3CBE93E /* Pods-RepoList-RepoListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepoList-RepoListUITests.debug.xcconfig"; path = "Target Support Files/Pods-RepoList-RepoListUITests/Pods-RepoList-RepoListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7775D74ED6AAE00730D844A /* Pods_RepoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -207,6 +212,7 @@
 		B73A154F272029C800DA6887 /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				B76A17DC27228E6C00429666 /* Sample */,
 				B73A1550272029E400DA6887 /* RepoListAPI.swift */,
 			);
 			path = Remote;
@@ -235,6 +241,14 @@
 				B76A17DA27219F8A00429666 /* RepoDetailViewController.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		B76A17DC27228E6C00429666 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B76A17DD27228E8300429666 /* SampleResponse.json */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 		B77517032720170100CC5E7A = {
@@ -279,8 +293,10 @@
 		B77517252720170600CC5E7A /* RepoListTests */ = {
 			isa = PBXGroup;
 			children = (
-				B77517262720170600CC5E7A /* RepoListTests.swift */,
+				B7D8A6F52723F66C00122F18 /* Resource */,
 				B77517282720170600CC5E7A /* Info.plist */,
+				B76A17E0272291F400429666 /* RepoListTestCases.swift */,
+				B76A17DF272291F400429666 /* RepoListTests-Bridging-Header.h */,
 			);
 			path = RepoListTests;
 			sourceTree = "<group>";
@@ -292,6 +308,14 @@
 				B77517332720170600CC5E7A /* Info.plist */,
 			);
 			path = RepoListUITests;
+			sourceTree = "<group>";
+		};
+		B7D8A6F52723F66C00122F18 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B7D8A6F62723F69600122F18 /* SuccessResponse.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		CADDC08E63D261A9FFA882B7 /* Frameworks */ = {
@@ -334,6 +358,7 @@
 				B775171E2720170600CC5E7A /* Sources */,
 				B775171F2720170600CC5E7A /* Frameworks */,
 				B77517202720170600CC5E7A /* Resources */,
+				3478F315CAD99F7B0E4CC096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -379,6 +404,7 @@
 					};
 					B77517212720170600CC5E7A = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 						TestTargetID = B775170B2720170200CC5E7A;
 					};
 					B775172C2720170600CC5E7A = {
@@ -416,6 +442,7 @@
 				B77517192720170600CC5E7A /* Assets.xcassets in Resources */,
 				B77517172720170200CC5E7A /* Main.storyboard in Resources */,
 				B76A17D32721288900429666 /* RepoTableViewCell.xib in Resources */,
+				B76A17DE27228E8300429666 /* SampleResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +450,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D8A6F72723F69600122F18 /* SuccessResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +464,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3478F315CAD99F7B0E4CC096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepoListTests/Pods-RepoListTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepoListTests/Pods-RepoListTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RepoListTests/Pods-RepoListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		84DD3124401C6A308BA5FA29 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -568,7 +613,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B77517272720170600CC5E7A /* RepoListTests.swift in Sources */,
+				B76A17E1272291F400429666 /* RepoListTestCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,6 +822,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U37S254K23;
 				INFOPLIST_FILE = RepoListTests/Info.plist;
@@ -788,6 +834,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RepoList.RepoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RepoListTests/RepoListTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoList.app/RepoList";
@@ -800,6 +848,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U37S254K23;
 				INFOPLIST_FILE = RepoListTests/Info.plist;
@@ -811,6 +860,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RepoList.RepoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RepoListTests/RepoListTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoList.app/RepoList";
